@@ -10,6 +10,8 @@ app.get('/create-user', (req, res) => {
     res.send('<h1>Hello nodejs</h1>')
 })
 
+
+
 // start server
 app.listen(port, () => {
   console.log(`My server starting at http://localhost:${port}`);

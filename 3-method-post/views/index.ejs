@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head
+<body>
+    <h1>Method post</h1>
+    <h3>list user</h3>
+
+    <ul>
+      <% users.forEach(user => { %>
+      <li><%=user.name%> </li>
+      <% }) %>
+    </ul>
+
+    <a href="/user/create">Create user</a>
+
+</body>
+</html>

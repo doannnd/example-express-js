@@ -11,7 +11,11 @@ app.get('/create-user', (req, res) => {
 })
 
 app.get('/user/create', (req, res, next) => {
-  res.send('Hello sir')
+  res.send('Hello sir')   
+})
+
+app.get('/user/update', (req, res) => {
+  console.log("hello");
 })
 
 // start server

@@ -16,6 +16,7 @@ app.get('/user/create', (req, res, next) => {
 
 app.get('/user/update', (req, res) => {
   //console.log("hello");
+  console.log(object);
 })
 
 // start server

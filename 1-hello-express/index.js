@@ -1,4 +1,4 @@
-const express = require("express");
+const express = require('express');
 const app = express();
 const port = 3000;
 
@@ -10,7 +10,9 @@ app.get('/create-user', (req, res) => {
     res.send('<h1>Hello nodejs</h1>')
 })
 
-
+app.get('/user/create', (req, res, next) => {
+  res.send('Hello sir')
+})
 
 // start server
 app.listen(port, () => {
